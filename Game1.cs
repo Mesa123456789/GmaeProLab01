@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System.Security.Cryptography.X509Certificates;
 
 namespace GmaeProLab01
 {
@@ -41,9 +42,12 @@ namespace GmaeProLab01
             base.Update(gameTime);
         }
 
+        public Vector2 playerJump = new Vector2(2,2);
         public void UpdateGit()
         {
             int Update2;
+            int Update3;
+            
         }
 
         protected override void Draw(GameTime gameTime)
