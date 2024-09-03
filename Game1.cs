@@ -41,6 +41,11 @@ namespace GmaeProLab01
             base.Update(gameTime);
         }
 
+        public void UpdateGit()
+        {
+
+        }
+
         protected override void Draw(GameTime gameTime)
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
