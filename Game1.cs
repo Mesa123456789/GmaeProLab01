@@ -43,7 +43,7 @@ namespace GmaeProLab01
 
         public void UpdateGit()
         {
-
+            int Update2;
         }
 
         protected override void Draw(GameTime gameTime)
