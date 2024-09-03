@@ -8,6 +8,7 @@ namespace GmaeProLab01
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
+        int Update1;
 
         public Game1()
         {
